@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  height: 50px;
+  background-color: #118BC0;
+  overflow: auto;
+}
+.siteName {
+  padding: 8px 0 8px 10px;
+  overflow: auto;
+  width: 50%;
+  float: left;
+}
+
+.logo {
+  height: 34px;
+  width: 34px;
+  background: #fff;
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.wordpressUrl {
+  height: 34px;
+  /*width: 118px;*/
+  background: #118BC0;
+  float:left;
+  margin: 10px 0 0 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+.dotcom {
+  height: 34px;
+  width: 118px;
+  color: #A6D7E5;
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  float: left;
+}
+
+
+.logIn {
+  height: 44px;
+  width: 76px;
+  float: right;
+  border: none;
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0070A4;
+  box-sizing: content-box;
+}
+
+.container1 {
+  margin-top: 0;
+  height: 1120px;
+  background-color: #344051;
+}
+
+.headline  {
+  width: 360px;
+  margin: 0;
+  text-align: center;
+  padding-top: 165px;
+  margin: 0 auto;
+  font-size: 28px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Helvetica', sans-serif;
+  color: #fff
+}
+
+.headline2 {
+  width: 260px;
+  text-align: center;
+  padding-top: 60px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: 'Helvetica', sans-serif;
+  color: #fff
+}
+
+.create {
+  height:70px;
+  width: 228px;
+  background: #1E8CBE;
+  margin: 30px auto;
+  border: 8px;
+  display: block;
+  border-style: solid;
+  border-color: #000000;
+  margin-bottom: 214px;
+  font-size: 24px;
+  color: #fff;
+
+}
+
+.arrow {
+  margin: 0 auto;
+  width: 48px;
+  height: 20px;
+  display: block;
+  border: none;
+  background: #fff;
+  margin-bottom: 130px;
+}
+
+.features {
+  height: 68px;
+  width: 304px;
+  background: none;
+  overflow: auto;
+  padding: 0 2px 0 0;
+  margin: 20px auto 20px auto;
+
+  }
+  .featuresImg {
+    width: 48px;
+    height: 56px;
+    background-color: #5F6C7D;
+    margin: 12px 0 0 0;
+    float: left;
+  }
+
+  .featuresText {
+    width: 248px;
+    height: 53px;
+    margin: 0;
+    background: #344051;
+    float: right;
+  }
+
+   .featuresText h4 {
+     color: #fff;
+     font-weight: normal;
+     margin: 0 0 10px 0;
+     font-size: 20px;
+
+
+   }
+   .featuresText p {
+     color: #fff;
+     margin: 0;
+     font-size: 14px;
+   }
+
+
+
+.info {
+  height: 190px;
+  background-color: #E8F0F5;
+  font-size: 30px;
+  text-align: center;
+  color: #1A2954;
+  line-height: 1.5;
+  padding-top: 14px;
+}
+
+.container2 {
+  padding-top: 32px;
+  background: #D1D3D7;
+  padding-bottom: 10px;
+
+}
+
+.container2.lastchild {
+  margin-bottom: 0;
+}
+  .block:first-of-type {
+    margin-top: 0;
+  }
+    .block {
+      height: 215px;
+      background: #FEFEFE;
+      margin: 32px 10px;
+      padding: 22px 16px 0 16px;
+}
+
+}
+
+  .block:last-of-type {
+    margin-bottom: 0;
+  }
+  .blockImage {
+    height: 62px;
+    width: 62px;
+    background: #C7D2D8;
+    margin: 0 auto;
+    border-radius: 100px;
+  }
+
+  .blockTitle {
+    height: 22px;
+    width: 408px;
+    background: #fff;
+    margin: 6px auto 20px auto;
+    text-align: center;
+    color: #294C71;
+    font-weight: normal;
+    font-size: 22px;
+  }
+
+  .blockInfo {
+    height: 48px;
+    width: 408px;
+    margin: 0 auto 38px auto;
+    background: #fff;
+    text-align: center;
+    line-height: 1.5;
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .container4 {
+    height: 168px;
+    background:#E8F0F5;
+    padding-top: 30px;
+    color: #000000;
+    font-size: 20px;
+    overflow: auto;
+    text-align: center;
+
+  }
+    .block2 {
+      width: 208px;
+      height: 52px;
+      padding-left: 26px;
+      padding-top: 10px;
+      padding-right: 26px;
+      background-color: #1E8CBE;
+      margin: 40px auto 0 auto;
+      color: #fff;
+      text-align: center;
+      font-size: 22px;
+      overflow: auto;
+
+    }
+
+.footer {
+  height: 132px;
+  background: #000000;
+  padding-top: 25px;
+  text-align: center;
+}
+
+a {
+  margin: 5px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: 'Helvetica', sans-serif;
+  color: #fff
+}
+
+.button6 {
+  height:22px;
+  width: 132px;
+  background: #fff;
+  margin: 24px auto;
+
+
+
+}
